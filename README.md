@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to analyze social media sentiment in real-time using streaming data pipelines. By leveraging **Apache Spark Streaming**, **Python**, and databases like **MySQL** or **MongoDB**, this system collects social media posts (e.g., from Twitter), processes them, and classifies sentiment as positive, negative, or neutral.  
+This project aims to analyze social media sentiment in real-time using streaming data pipelines. By leveraging **Apache Spark Streaming**, **Python**, and databases like **MongoDB**, this system collects social media posts (e.g., from Twitter), processes them, and classifies sentiment as positive, negative, or neutral.  
 
 It helps businesses, analysts, and researchers track public opinion trends, detect emerging issues, and make data-driven decisions.
 
@@ -26,12 +26,11 @@ It helps businesses, analysts, and researchers track public opinion trends, dete
    - Messages are ingested continuously into Kafka or directly into Spark.
 
 2. **Data Processing**
-   - **Apache Spark Structured Streaming** handles real-time data processing.
    - **Data cleaning**: remove URLs, hashtags, mentions, and stopwords.
    - **Sentiment analysis**: using pre-trained ML models (TextBlob, Vader, or custom ML model).
 
 3. **Storage**
-   - Processed data is stored in **MySQL** or **MongoDB** for querying and analysis.
+   - Processed data is stored in **MongoDB** for querying and analysis.
 
 4. **Visualization (Optional)**
    - Use dashboards like **Grafana** or **Plotly Dash** to visualize sentiment trends.
@@ -43,7 +42,7 @@ It helps businesses, analysts, and researchers track public opinion trends, dete
 - **Programming Language**: Python 3.11+
 - **Data Pipeline**: Apache Spark Structured Streaming
 - **Message Broker (Optional)**: Apache Kafka
-- **Database**: MySQL or MongoDB
+- **Database**: MongoDB
 - **Sentiment Analysis Libraries**: TextBlob, Vader, or custom ML model
 - **Visualization (Optional)**: Plotly Dash, Matplotlib, or Seaborn
 
