@@ -7,6 +7,9 @@ This project aims to analyze social media sentiment in real-time using streaming
 It helps businesses, analysts, and researchers track public opinion trends, detect emerging issues, and make data-driven decisions.
 
 ---
+## Project Flow
+
+<img width="1280" height="887" alt="image" src="https://github.com/user-attachments/assets/e2dd2ddb-e2c5-4694-a54f-1d7d093b474a" />
 
 ## Features
 
